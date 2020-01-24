@@ -40,7 +40,7 @@ export default {
     };
   },
   computed: {
-    isValid: () => {
+    isValid() {
       const result = this.userId.length < 3;
       return result || this.loading;
     },
